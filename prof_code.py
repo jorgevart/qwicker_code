@@ -3,6 +3,7 @@ import azure.functions as func
 import mysql.connector
 import random
 
+
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
 
