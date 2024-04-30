@@ -7,6 +7,7 @@ import json
 from azure.storage.queue import QueueClient
 from azure.data.tables import TableServiceClient, TableEntity
 
+
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Azure Function Processing a HTTP Request for Attendance Tracking')
 
